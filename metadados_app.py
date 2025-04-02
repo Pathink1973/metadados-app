@@ -5,7 +5,7 @@ import io
 
 st.set_page_config(page_title="Analisador de Metadados", layout="wide")
 
-st.title("📷 Analisador de Metadados de Fotografias")
+st.title("📷 Metada Exif Explorer")
 
 uploaded_file = st.file_uploader("Arraste ou selecione uma imagem da sua câmara", type=["jpg", "jpeg", "tiff"])
 
