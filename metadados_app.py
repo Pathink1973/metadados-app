@@ -3,7 +3,7 @@ from PIL import Image
 import piexif
 import io
 
-st.set_page_config(page_title="Analisador de Metadados", layout="wide")
+st.set_page_config(page_title="Metada Exif Explorer", layout="wide")
 
 st.title("📷 Metada Exif Explorer")
 
