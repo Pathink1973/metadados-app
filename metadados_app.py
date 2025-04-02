@@ -3,9 +3,9 @@ from PIL import Image
 import piexif
 import io
 
-st.set_page_config(page_title="Metada Exif Explorer", layout="wide")
+st.set_page_config(page_title="Metadados EXIF Explorer", layout="wide")
 
-st.title("📷 Metada Exif Explorer")
+st.title("📷 Metadados EXIF Explorer")
 
 uploaded_file = st.file_uploader("Arraste ou selecione uma imagem da sua câmara", type=["jpg", "jpeg", "tiff"])
 
